@@ -28,7 +28,7 @@ parser = argparse.ArgumentParser(prog='python gb2fasta.py',
 
         gb2fasta help:
 
-This script is developed to fetch sequences from multifasta file by using a list of accession numbers to fetch. 
+This script is developed to convert genbank files to fasta.
 
 SeqIO package from Bio is required to fetch sequences. Additionally, tqdm is required to provide a progress bar since some multifasta files can contain long and many sequences.
         
